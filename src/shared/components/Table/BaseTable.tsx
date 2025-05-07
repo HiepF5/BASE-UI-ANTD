@@ -4,14 +4,9 @@ import type { StepsProps } from 'antd'
 const { Step } = Steps
 import {
   PlusOutlined,
-  EditOutlined,
-  DeleteOutlined,
-  EyeOutlined,
   SettingOutlined,
-  LayoutOutlined,
-  CheckOutlined
 } from '@ant-design/icons'
-import BaseButton from '../Button/BaseButton'
+import BaseButton from '../Button/ButtonBase'
 import { Dropdown, Menu, Checkbox } from 'antd'
 import { DragDropContext, Droppable, DropResult } from 'react-beautiful-dnd'
 import { DraggableHeaderCell, DraggableHeaderCellProps } from './DraggableHeaderCell'

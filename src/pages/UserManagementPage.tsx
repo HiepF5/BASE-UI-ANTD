@@ -83,7 +83,7 @@ const UserManagementPage: React.FC = () => {
             storage: { enabled: false, key: 'user-columns' }
           },
           modal: {
-            type: 'single',
+            // type: 'single', // Removed as it is not a valid property
             form: {
               type: 'single',
               actions: {

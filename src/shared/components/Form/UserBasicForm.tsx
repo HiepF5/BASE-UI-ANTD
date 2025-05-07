@@ -1,8 +1,8 @@
 // UserBasicForm.jsx
 import React from 'react';
 import { Form, FormInstance } from 'antd';
-import BaseInput from '../Input/BaseInput';
-import BaseSelect from '../Select/BaseSelect';
+import BaseInput from '../Input/InputBase';
+import BaseSelect from '../Select/SelectBase';
 
 interface FormProps {
   form: FormInstance;

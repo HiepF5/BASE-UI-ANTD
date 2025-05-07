@@ -1,8 +1,8 @@
 import React from 'react'
 import { Form } from 'antd'
-import BaseInput from '../shared/components/Input/BaseInput'
-import BaseSelect from '../shared/components/Select/BaseSelect'
-import BaseButton from '../shared/components/Button/BaseButton'
+import BaseInput from '../shared/components/Input/InputBase'
+import BaseSelect from '../shared/components/Select/SelectBase'
+import BaseButton from '../shared/components/Button/ButtonBase'
 
 const UserFormWithFakeData: React.FC = () => {
   const [form] = Form.useForm()

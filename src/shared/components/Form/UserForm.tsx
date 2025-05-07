@@ -1,7 +1,7 @@
 import React from 'react'
 import { Form, Input, Select } from 'antd'
-import BaseInput from '../Input/BaseInput'
-import BaseSelect from '../Select/BaseSelect'
+import BaseInput from '../Input/InputBase'
+import BaseSelect from '../Select/SelectBase'
 
 interface UserFormProps {
   form: any; // Replace 'any' with the appropriate type if available
